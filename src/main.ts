@@ -3,6 +3,7 @@ import { AppModule } from './app.module';
 
 import * as bodyParser from 'body-parser';
 
+
 const start = async () => {
   try {
     const app = await NestFactory.create(AppModule, { cors: true });
